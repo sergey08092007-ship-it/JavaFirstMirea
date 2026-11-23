@@ -3,31 +3,31 @@
 import java.util.Scanner;
 
 public class ArraySum {
-    /*3
+
     public static void main(String[] args) {
-            // 1. Создание и инициализация массива "как в Си"
-            int[] numbers = {4, 8, 15, 16, 23, 42};
+        // 1. Создание и инициализация массива "как в Си"
+        int[] numbers = {4, 8, 15, 16, 23, 42};
 
-            int sum = 0;
+        int sum = 0;
 
-            // 2. Подсчет суммы элементов с помощью цикла for
-            // Сумма "вводится" (накапливается) в переменную sum
-            for (int i = 0; i < numbers.length; i++) {
-                sum += numbers[i];
-            }
-
-            // 3. Вычисление среднего арифметического
-            // Мы приводим sum к типу double, чтобы избежать потери дробной части
-            // при целочисленном делении в Java
-            double average = (double) sum / numbers.length;
-
-            // 4. Вывод результата на экран
-            System.out.println("Сумма элементов массива: " + sum);
-            System.out.println("Среднее арифметическое: " + average);
+        // 2. Подсчет суммы элементов с помощью цикла for
+        // Сумма "вводится" (накапливается) в переменную sum
+        for (int i = 0; i < numbers.length; i++) {
+            sum += numbers[i];
         }
-     */
 
-    /*4 public static void main(String[] args) {
+        // 3. Вычисление среднего арифметического
+        // Мы приводим sum к типу double, чтобы избежать потери дробной части
+        // при целочисленном делении в Java
+        double average = (double) sum / numbers.length;
+
+        // 4. Вывод результата на экран
+        System.out.println("Сумма элементов массива: " + sum);
+        System.out.println("Среднее арифметическое: " + average);
+    }
+}
+
+public static void main(String[] args) {
             Scanner scanner = new Scanner(System.in);
 
             // 1. Ввод размера массива с проверкой на корректность
@@ -87,9 +87,7 @@ public class ArraySum {
         }
     }
 
-     */
-
-    /*6   public static void main(String[] args) {
+    public static void main(String[] args) {
 
             // Заголовок таблицы
             System.out.println("Первые 10 членов гармонического ряда:");
@@ -113,5 +111,4 @@ public class ArraySum {
 
             System.out.println("-------------------------------------------");
         }
-
-     */
+*/

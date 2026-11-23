@@ -11,6 +11,6 @@ public class TestAuthor {
         System.out.println("Введите почту: ");
         email = source.next();
         k1.setEmail(email);
-        System.out.println("Имя автора - " + k1.getName() + " " + "Пол - " + k1.getGender() + "Email - " + k1.getEmail());
+        System.out.println("Имя автора - " + k1.getName() + " " + "Пол - " + k1.getGender() + " Email - " + k1.getEmail());
     }
 }
