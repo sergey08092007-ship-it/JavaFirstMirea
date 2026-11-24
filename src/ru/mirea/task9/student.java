@@ -1,4 +1,4 @@
-package ru.mirea.task9;
+package ru.mirea.task9; //Comparable (реализация)
 
 public class student implements Comparable<student> {
     private int iDNumber;        // номер студенческого билета
@@ -11,7 +11,7 @@ public class student implements Comparable<student> {
         this.firstName = firstName;
         this.lastName = lastName;
         this.gpa = gpa;
-    }
+    }           //cоздаёт  заполненный объект (данные о студенте)
 
     public int getIDNumber() { return iDNumber; }
     public void setIDNumber(int iDNumber) { this.iDNumber = iDNumber; }
